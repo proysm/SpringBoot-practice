@@ -29,7 +29,7 @@ public class User {
         return new User("Park", "park@naver.io"); // test를 위한 샘플
     }
     public static void main(String[] args){
-        User user = new User("Kim", "kim.naver.io");
+        User user = new User("Kim", "kim@naver.io");
         System.out.println(new Gson().toJson(user));
     }
 }
